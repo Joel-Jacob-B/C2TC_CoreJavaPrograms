@@ -27,7 +27,7 @@ public class TypeCastingDemo {
 		long l = (long) f1;
 		System.out.println(l);
 
-		long l1 = 923372036854775806l;
+		long l1 = 913372036854775806l;
 		int i2 = (int) l1;
 		System.out.println(i2);
 
