@@ -43,7 +43,7 @@ public class InheritanceDemo extends inherit1 {
 public static void main(String[] args) {	
 	
 	InheritanceDemo m = new InheritanceDemo();
-	inherit1 m1 = new inherit1();
+	
 	m.display(); // Overridden method is invoked
 	System.out.println(m.getValue()); // Value from Class 1 is returned
 	m.setValue(20); // Value = 20 changed
